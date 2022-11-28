@@ -8,49 +8,28 @@
     <link rel="stylesheet" href="/style.css">
     <title>Landing Page DNC</title>
 
-    <style>
-        body {
-            background-color: #E5E5E5;
-            margin: 40px 0px 0px 60px;
-        }
-
-        img {
-            width: 156px;
-            margin-top: 25px;
-            position: relative;
-            left: 50%;
-        }
-
-        .formulario {
-            width: 300px;
-            position: relative;
-            left: 45%;
-        }
-
-        #entrar {
-            width: 130px;
-            position: relative;
-            left: 51%;
-        }
-
-        #provedor {
-            width: 230px;
-        }
-    </style>
 </head>
 
 <body>
     <div>
-        <img src="/img/Header_HBO_MAX.png" alt="">
-        <h1 id="headerentrar">Entrar</h1>
-        <p>Você tem uma conta HBO Max?</p>
-        <p>Email</p>
-        <input class="formulario" type="email">
-        <p>Senha</p>
-        <input class="formulario" type="password"> <br><br>
-        <input id="entrar" type="button" value="Entrar">
-        <p>Voce acessa a HBO Max por um provedor de tv, <br> de internet ou celular?</p>
-        <input id="provedor" type="button" value="Entrar como provedor">
+        <!--Imagem HBO MAX do topo da página-->
+        <img  class="image-logo" src="/img/Header_HBO_MAX.png" alt="Imagem HBO">
+
+        <h1 class="title"> Entrar </h1>
+        <h3 class="subtitle"> Você tem uma conta HBO Max? </h3>
+
+        <label class="input-label-email"> Email </label><br>
+        <input class="input-email" type="email">
+
+        <label class="input-label-pass"> Senha </label><br>
+        <input class="input-pass" type="password">
+
+        <button class="button-send"> Entrar </button>
+    </div>
+
+    <div>
+        <h3 class="footer-text"> Você acessa a HBO Max por um provedor de tv, de internet ou celular?</h3>
+        <button class="button-enter"> Entrar como provedor</button>
     </div>
 
 </body>
